@@ -1,0 +1,18 @@
+Cómo eliminar tu cuenta y tus datos en Full Task Manager
+Full Task Manager se compromete a proteger la privacidad de los usuarios. Si deseas eliminar tu cuenta y los datos asociados, sigue estos pasos:
+
+1. Pasos para eliminar tu cuenta:
+◉ Abre la aplicación Full Task Manager.
+◉ Dirígete a la sección de Configuración dentro de la aplicación.
+◉ Selecciona la opción Eliminar cuenta.
+◉ Confirma que deseas eliminar tu cuenta. Todos tus datos asociados serán eliminados permanentemente.
+◉ Si has creado una cuenta y has subido tareas a la nube, estos datos serán eliminados de nuestros servidores.
+
+2. Datos que se eliminan:
+Al eliminar tu cuenta, todos los datos personales que hayas almacenado en la aplicación serán eliminados, incluyendo:
+
+◉ Tareas almacenadas en la nube.
+◉ Información asociada a tu cuenta, como nombre de usuario y correo electrónico.
+
+3. Seguridad de los datos
+Nos tomamos muy en serio la seguridad de tus datos. Utilizamos medidas estándar para proteger tu información personal y asegurar que tus tareas se almacenen de manera segura. Sin embargo, cuando decides eliminar tu cuenta, tus datos serán borrados de manera definitiva de nuestros servidores en la nube.
