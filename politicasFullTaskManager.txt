@@ -1,0 +1,46 @@
+Política de Privacidad de Full Task Manager
+Fecha de entrada en vigor: 9 de enero del 2025
+
+1. Información General
+En Full Task Manager respetamos la privacidad de nuestros usuarios. Esta Política de Privacidad tiene como objetivo informarte sobre cómo recopilamos, usamos y protegemos la información que proporcionas al utilizar nuestra aplicación. Al usar nuestra aplicación, aceptas los términos de esta política.
+
+2. Información que Recopilamos
+2.1. Información personal
+Nuestra aplicación permite a los usuarios crear cuentas para guardar sus tareas en la nube. La información que recopilamos incluye:
+
+Nombre de usuario (si lo proporciona).
+Datos de las tareas que el usuario guarda en la nube (como título, descripción, fecha de vencimiento, etc.).
+Nota: No recopilamos datos sensibles, a menos que el usuario decida incluir datos sensibles (como información personal o confidencial) dentro de una tarea que se guarda en la nube.
+
+2.2. Información del dispositivo
+La aplicación no solicita permisos especiales ni recopila información adicional sobre el dispositivo, como ubicación, cámara o micrófono.
+
+2.3. Publicidad
+Utilizamos Google AdMob para mostrar anuncios dentro de la aplicación. AdMob puede recopilar información como el identificador del dispositivo, la dirección IP y otros datos relacionados con la publicidad para personalizar los anuncios y mejorar la experiencia del usuario.
+
+Para más información sobre cómo Google recopila y utiliza datos, te recomendamos leer su Política de Privacidad aquí.
+
+3. Uso de la Información
+La información recopilada se utiliza principalmente para:
+
+Permitir a los usuarios crear y gestionar tareas.
+Sincronizar datos de las tareas con la nube, si el usuario decide crear una cuenta.
+Mostrar anuncios a través de Google AdMob.
+Mejorar la funcionalidad de la aplicación y la experiencia del usuario.
+4. Almacenamiento de la Información
+Los datos de las tareas se almacenan localmente en el dispositivo. Si el usuario decide crear una cuenta, los datos de las tareas se sincronizan y almacenan en la nube para permitir la recuperación y acceso desde otros dispositivos.
+
+5. Compartición de Información
+Full Task Manager no comparte directamente la información personal de los usuarios con terceros. Sin embargo, al integrar Google AdMob, es posible que los datos relacionados con el comportamiento del usuario, como el identificador del dispositivo y la dirección IP, sean compartidos con Google para la personalización de anuncios.
+
+6. Cookies y Tecnologías Similares
+Nuestra aplicación no utiliza cookies ni otras tecnologías de seguimiento.
+
+7. Derechos del Usuario
+Los usuarios pueden revisar, modificar o eliminar su información personal en cualquier momento accediendo a su cuenta desde la aplicación. Si el usuario decide eliminar su cuenta, los datos asociados también serán eliminados de la nube.
+
+8. Cambios en la Política de Privacidad
+Nos reservamos el derecho de modificar esta Política de Privacidad en cualquier momento. Cualquier cambio se reflejará en esta página, y la fecha de entrada en vigor se actualizará en consecuencia. Te recomendamos revisar periódicamente esta política para estar al tanto de cualquier modificación. Si utilizas la aplicación después de que se realicen cambios, se considerará que aceptas esos cambios.
+
+9. Contacto
+Si tienes alguna pregunta o inquietud acerca de nuestra Política de Privacidad, puedes ponerte en contacto con nosotros a través del correo electrónico disponible en la ficha de la aplicación en Google Play Store.
