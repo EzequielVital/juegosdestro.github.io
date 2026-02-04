@@ -1,0 +1,50 @@
+{
+    "header": {
+        "actionCategory": "Action",
+        "threeDCategory": "3D",
+        "girlsCategory": "Girls",
+        "drivingCategory": "Driving",
+        "sportsCategory": "Sports",
+        "multiplayerCategory": "Multiplayer",
+        "mmoCategory": "MMO",
+        "strategyCategory": "Strategy",
+        "logicCategory": "Logic",
+        "searchButton": "Search"
+    },
+    "main":{
+        "newGamesCategory":"🎮New Games",
+        "popularGamesCategory":"🔝Popular Games",
+        "actionGamesCategory":"⚔️Action Games",
+        "girlsGamesCategory":"👗Girls Games",
+        "strategyGamesCategory":"🐉Strategy Games",
+        "threeDGamesCategory":"🎲3D Games",
+        "similarGamesCategory":"Similar Games"
+    },
+    "about":{
+        "title":"About JuegosDestro",
+        "p1": "Welcome to JuegosDestro, your destination for enjoying free browser games! On our website, you will find a wide selection of exciting and addictive games that you can play directly from your browser, without the need to download or install anything. Enjoy online fun and uninterrupted gaming!",
+        "p2": "At JuegosDestro, we take pride in offering a unique and entertaining gaming experience for all users. Our catalog includes a variety of genres, from thrilling <a href='https://juegosdestro.com/category/strategy'>online strategy games</a> and exciting adventures to <a href='https://juegosdestro.com/category/logic'>skill and puzzle games</a>. We regularly update our collection to ensure you always have new challenges and exciting experiences to discover.",
+        "p3": "At JuegosDestro, we care about your user experience, which is why our website has been designed with an intuitive and easy-to-navigate interface. Explore our wide selection of <a href='https://juegosdestro.com/category/action'>online action games</a>, <a href='https://juegosdestro.com/category/sports'>online sports games</a>, and <a href='https://juegosdestro.com/category/driving'>online racing games</a>. You can search for games by category, filter them by popularity, or simply browse through our featured recommendations.",
+        "p4": "Join the passionate community of online gamers at JuegosDestro and dive into the excitement of our free browser games! Whether you're a casual player or a challenge enthusiast, you'll find something for you. Explore JuegosDestro now and start playing from your browser!"
+    },
+    "footer":{
+        "contact":"Contact Us",
+        "policies":"Privacy Policies",
+        "conditions":"Terms and Conditions"
+    },
+    "conditions":{"description":"<h2>Terms and Conditions of Use:</h2><h3>1. Acceptance of Terms:</h3><p>By accessing and using the JuegosDestro website, you agree to comply with these terms and conditions of use. If you do not agree with any of these terms, please do not use this website.</p><h3>2. Use of Content:</h3><p>All content available on JuegosDestro is strictly for entertainment purposes and does not imply any warranty of accuracy, timeliness, or suitability for a specific purpose. The use of the content is at your own risk and discretion.</p><h3>3. Intellectual Property:</h3><p>All intellectual property rights related to the content and design of the JuegosDestro website are the exclusive property of their respective owners. Reproduction, distribution, or modification of the content without prior written permission is strictly prohibited.</p><h3>4. External Links:</h3><p>The JuegosDestro website may contain links to external websites. We have no control over the content and privacy policies of these sites, and we do not assume any responsibility for any damage or loss you may suffer when accessing these links.</p><h3>5. User Responsibility:</h3><p>By using JuegosDestro, you acknowledge that you are solely responsible for any actions you take on the website. We are not liable for any damage, loss, or consequences you may experience as a result of using the website.</p><h3>6. Modifications:</h3><p>We reserve the right to modify or update these terms and conditions at any time without prior notice. We recommend that you periodically review this page to stay informed of any changes. Your continued use of the website after changes have been made will signify your acceptance of the modified terms.</p>"
+},
+"policies":{
+"description":"<h2>Privacy Policies:</h2><h3>Information Collection:</h3><p>We do not automatically collect personally identifiable information when you visit our website.</p><p>We only collect personal information when you voluntarily provide it to us through contact forms or other means of communication.</p><p>The personal information we may collect includes your name, email address, or other information necessary to respond to your inquiries or provide requested services.</p><h3>Use of Information:</h3><p>We use the personal information you provide to us to respond to your inquiries and provide the requested services.</p><p>We will not share, sell, or rent your personal information to third parties without your consent, except when necessary to comply with a legal obligation.</p><h3>Cookies and Similar Technologies:</h3><p>We do not use cookies or similar technologies to collect personal information or track your activity on our website.</p><h3>Links to Third-Party Websites:</h3><p>Our website may contain links to third-party websites. This Privacy Policy applies only to our website, so we recommend reading the privacy policies of these third-party sites when you visit them.</p><h3>Information Security:</h3><p>We implement reasonable security measures to protect the personal information we collect and maintain.</p><p>However, please note that no transmission of data over the Internet or online storage system is 100% secure. We cannot guarantee the absolute security of your personal information.</p><h3>Changes to the Privacy Policy:</h3><p>We reserve the right to modify this Privacy Policy at any time. Any changes will be effective when we publish the updated Privacy Policy on our website.</p><h3>Consent:</h3><p>By using our website, you agree to the terms of this Privacy Policy and give us your consent to collect, use, and protect your personal information as stated herein.</p><p>If you have any questions about this Privacy Policy, please contact us through the provided means on our website.</p>"
+},
+"contact":{
+"contact":"Contact",
+"name":"Name:",
+"email":"Email:",
+"message":"Message:",
+"send":"Send"
+},
+"search":{
+    "search":"Search"
+}
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JW61WP2DD3"></script>
+        <script>    
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-JW61WP2DD3');
+        </script>
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Smokum&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta
+        name="description"
+        content="Emocionantes videojuegos de navegador en línea. Acción, estrategia, deportes y más. Sin descargas ni instalaciones. Únete y disfruta de juegos en línea sin interrupciones en JuegosDestro."
+        />
+        <meta name="keywords" content="Juegos de navegador, Videojuegos en línea, Juegos en línea, Aventuras en línea, Juegos de acción en línea, Juegos de estrategia en línea, Juegos de deportes en línea, Juegos de carreras en línea, Diversión en línea, Experiencia de juego en línea, Juegos gratuitos en línea, Comunidad de jugadores en línea, Juegos sin descarga, Juegos para navegador web, Jugar desde el navegador">
+        <link rel="apple-touch-icon" href="/logo192.png" />
+        <link rel="stylesheet" type="text/css" href="/fonts/Flowers-Sunday.otf" />
+        <link rel="stylesheet" type="text/css" href="/styles/index.css" />
+        <link rel="stylesheet" type="text/css" href="/styles/juego.css" />
+        <link rel="stylesheet" type="text/css" href="/styles/categoria.css" />
+        <title>Juega juegos gratis de navegador - Juegos Destro</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6137924075903557"
+         crossorigin="anonymous"></script>
+         <script>
+            // Función para cambiar la vista y actualizar la URL
+            function changeView(path) {
+              // Obtener la referencia al elemento donde mostrar el contenido
+              var contentElement = document.getElementById('content');
+              
+              // Obtener el nombre del juego desde la ruta
+              var gameName = path.split('/').pop().replace('.html', '');
+              
+              // Simplemente actualizamos el contenido con el nombre del juego
+              contentElement.innerHTML = 'Contenido del juego: ' + gameName;
+              
+              // Actualizar la URL utilizando el HTML5 History API
+              history.pushState(null, null, path);
+            }
+            
+            // Función para manejar los cambios en la URL
+            function handleURLChange() {
+              // Obtener la ruta actual
+              var path = window.location.pathname;
+              
+              // Actualizar la vista según la ruta
+              changeView(path);
+            }
+            
+            // Asignar el evento 'popstate' para manejar cambios en el historial
+            window.addEventListener('popstate', handleURLChange);
+          </script>
+    </head>
+    <body>
+        <header class="navbar"></header>
+        <main>
+            <div class="dropdownMenu"></div>
+            <div class="dropdownMenuBack"></div>
+            <section class="gameContainerSection">
+                <h2 class="gameTitle"></h2>
+                <div class="gameiFrameContainer">
+                    <div class="startButton" onclick="initGame()">start game</div>
+                </div>
+                <div class="gameDescriptionContainer">
+                    <h3>Descripción</h3>
+                    <p class="gameDescription"></p>
+                </div>
+            </section>
+            <div class="gameSectionContainer">
+                <section class="gamesContainerSection">
+                    <div class="gamesContainer">
+                        <div class="backGameCategorieTitle">
+                            <h2 class="gameCategoryTitle" data-section="main" data-value="similarGamesCategory">Juegos similares</h2>
+                        </div>
+                
+                        <div id='similarGamesContainer'>
+                
+                        </div>
+                    </div>
+                </section>
+                <section class="gamesContainerSection">
+                    <div class="gamesContainer">
+                        <div class="backGameCategorieTitle">
+                            <h2 class="gameCategoryTitle" data-section="main" data-value="popularGamesCategory">Juegos populares</h2>
+                        </div>
+                
+                        <div id='popularGamesContainer'>
+                
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer></footer>
+    </body>
+    
+    <script src="/js/index.js"></script>
+    <script src="/js/juego.js"></script>
+    <script src="/js/games.js"></script>
+    <script src="/js/dropdownMenu.js"></script>
+    <script src="/js/search.js"></script>
+</html>

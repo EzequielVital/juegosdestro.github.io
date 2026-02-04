@@ -1,0 +1,113 @@
+.gameContainerSection{
+    width: 100%;
+}
+
+.iframeContainer{
+    width: 100%;
+    height: 70vw;
+    max-height: 800px;
+    top:0;
+    left:0;
+}
+
+.iframeContainer img{
+    filter:blur(2px);
+}
+
+.gameContainerSection{
+    max-width: 1200px;
+    padding-top: 20px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+}
+
+.gameTitle{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 35px;
+    width: 100%;
+}
+
+.gameiFrameContainer{
+    position: relative;
+}
+
+.startButton{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    padding: 10px;
+    width: 70%;
+    font-family: "Flowers Sunday";
+    border-radius: 20px;
+    border: solid 2px white;
+    text-align: center;
+    font-size: 10vw;
+    text-shadow: 2px 2px black;
+    box-shadow: 2px 2px 2px 2px black;
+    z-index: 2;
+}
+
+.gameContainerMobile{
+    position:fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1000;
+    top: 0px;
+    right: 0%;
+    transition: 0.5s;
+}
+
+.gameContainerMobile.isActive{
+    right: 100%;
+}
+
+.backButton{
+    position:absolute;
+    top: 50px;
+    height: 40px;
+    width: 60px;
+    background-color: blue;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    z-index: 1001;
+}
+
+.imgBack{
+    position: relative;
+    height: 100%;
+    transform: rotate(180deg);
+    right: -5px;
+}
+
+.gameDescription{
+    margin-top: 10px;
+}
+
+.gameDescriptionContainer{
+    margin: 20px 20px;
+}
+
+.gameSectionContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+}
+
+@media screen and (min-width: 1000px){
+    .gameSectionContainer{
+        flex-direction: row;
+    }
+}

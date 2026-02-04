@@ -1,0 +1,50 @@
+{
+    "header": {
+        "actionCategory": "Acción",
+        "threeDCategory": "3D",
+        "girlsCategory": "Chicas",
+        "drivingCategory": "Conducción",
+        "sportsCategory": "Deportes",
+        "multiplayerCategory": "Multijugador",
+        "mmoCategory": "MMO",
+        "strategyCategory": "Estrategia",
+        "logicCategory": "Lógica",
+        "searchButton": "Buscar"
+    },
+    "main":{
+        "newGamesCategory":"🎮Juegos nuevos",
+        "popularGamesCategory":"🔝Juegos populares",
+        "actionGamesCategory":"⚔️Juegos de acción",
+        "girlsGamesCategory":"👗Juegos de chicas",
+        "strategyGamesCategory":"🐉Juegos de estrategia",
+        "threeDGamesCategory":"🎲Juegos 3D",
+        "similarGamesCategory":"Juegos similares"
+    },
+    "about":{
+        "title":"Acerca de JuegosDestro",
+        "p1":"¡Bienvenido a JuegosDestro, tu destino para disfrutar de juegos de navegador gratuitos! En nuestra página web, encontrarás una amplia selección de juegos emocionantes y adictivos que podrás jugar directamente desde tu navegador, sin necesidad de descargar ni instalar nada. ¡Disfruta de la diversión en línea y la experiencia de juego sin interrupciones!",
+        "p2":"En JuegosDestro, nos enorgullece ofrecer una experiencia de juego única y entretenida para todos los usuarios. Nuestro catálogo incluye una variedad de géneros, desde <a href='https://juegosdestro.com/categoria/strategy'>juegos de estrategia en línea</a> y aventuras emocionantes hasta <a href='https://juegosdestro.com/categoria/logic'>juegos de habilidad y rompecabezas</a>. Actualizamos regularmente nuestra colección para asegurarnos de que siempre tengas nuevos desafíos y experiencias emocionantes por descubrir.",
+        "p3":"En JuegosDestro, nos preocupamos por tu experiencia de usuario, por lo que nuestra página web ha sido diseñada con una interfaz intuitiva y fácil de navegar. Explora nuestra amplia selección de <a href='https://juegosdestro.com/categoria/action'>juegos de acción en línea</a>, <a href='https://juegosdestro.com/categoria/sports'>juegos de deportes en línea</a> y <a href='https://juegosdestro.com/categoria/driving'>juegos de carreras en línea</a>. Puedes buscar juegos por categoría, filtrarlos por popularidad o simplemente explorar nuestras recomendaciones destacadas.",
+        "p4":"¡Únete a la apasionada comunidad de jugadores en línea de JuegosDestro y sumérgete en la emoción de nuestros juegos gratuitos para navegador! Tanto si eres un jugador casual como un amante de los desafíos, encontrarás algo para ti. Explora JuegosDestro ahora y ¡comienza a jugar desde tu navegador!"
+    },
+    "footer":{
+        "contact":"Contáctenos",
+        "policies":"Políticas de privacidad",
+        "conditions":"Términos y condiciones"
+    },
+    "conditions":{"description":"<h2>Términos y condiciones de uso:</h2><h3>1. Aceptación de los términos:</h3><p> Al acceder y utilizar el sitio web JuegosDestro, aceptas y te comprometes a cumplir con estos términos y condiciones de uso. Si no estás de acuerdo con alguno de estos términos, por favor, no utilices este sitio web.</p><h3>2. Uso del contenido:</h3><p> Todo el contenido disponible en JuegosDestro es exclusivamente para fines deentretenimiento y no implica ninguna garantía de precisión, actualidad o idoneidad para un propósitoespecífico. El uso del contenido es bajo tu propia responsabilidad y discreción.</p><h3>3. Propiedad intelectual:</h3><p> Todos los derechos de propiedad intelectual relacionados con el contenido ydiseño del sitio web JuegosDestro son propiedad exclusiva de sus respectivos propietarios. Quedaestrictamente prohibida la reproducción, distribución o modificación del contenido sin permisoprevio y por escrito.</p><h3>4. Enlaces externos:</h3><p> El sitio web JuegosDestro puede contener enlaces a sitios web externos. No tenemoscontrol sobre el contenido y las políticas de privacidad de estos sitios, por lo que no nosresponsabilizamos por cualquier daño o pérdida que puedas sufrir al acceder a estos enlaces.</p><h3>5. Responsabilidad del usuario:</h3><p> Al utilizar JuegosDestro, aceptas que eres el único responsable decualquier acción que realices en el sitio web. No nos hacemos responsables de cualquier daño,pérdida o consecuencia que puedas sufrir como resultado del uso del sitio web.</p> <h3>6. Modificaciones:</h3><p> Nos reservamos el derecho de modificar o actualizar estos términos y condiciones encualquier momento sin previo aviso. Te recomendamos revisar periódicamente esta página para estar altanto de cualquier cambio. El uso continuado del sitio web después de la realización de cambiosimplicará tu aceptación de los términos modificados.</p>"
+    },
+    "policies":{
+        "description":"<h2>Políticas de privacidad:</h2><h3>Recopilación de información:</h3><p>No recopilamos información personal identificable de forma automática cuando visitas nuestro sitioweb.</p><p>Solo recopilamos información personal cuando la proporcionas voluntariamente a través de formulariosde contacto u otros medios de comunicación.</p><p>La información personal que podemos recopilar incluye tu nombre, dirección de correo electrónico uotra información necesaria para responder a tus consultas o brindarte los servicios solicitados.</p><h3>Uso de la información:</h3><p>Utilizamos la información personal que nos proporcionas para responder a tus consultas y brindartelos servicios solicitados.</p><p>No compartiremos, venderemos ni alquilaremos tu información personal a terceros sin tuconsentimiento, excepto cuando sea necesario para cumplir con una obligación legal.</p><h3>Cookies y tecnologías similares:</h3><p>No utilizamos cookies ni tecnologías similares para recopilar información personal o rastrear tuactividad en nuestro sitio web.</p><h3>Enlaces a sitios web de terceros:</h3><p>Nuestro sitio web puede contener enlaces a sitios web de terceros. Esta Política de Privacidad seaplica solo a nuestro sitio web, por lo que te recomendamos leer las políticas de privacidad deestos sitios de terceros cuando los visites.</p><h3>Seguridad de la información:</h3><p>Implementamos medidas de seguridad razonables para proteger la información personal que recopilamosy mantenemos.</p><p>Sin embargo, ten en cuenta que ninguna transmisión de datos a través de Internet o sistema dealmacenamiento en línea es 100% segura. No podemos garantizar la seguridad absoluta de tuinformación personal.</p><h3>Cambios en la Política de Privacidad:</h3><p>Nos reservamos el derecho de modificar esta Política de Privacidad en cualquier momento. Cualquiercambio será efectivo cuando publiquemos la Política de Privacidad actualizada en nuestro sitio web.</p><h3>Consentimiento:</h3><p>Al utilizar nuestro sitio web, aceptas los términos de esta Política de Privacidad y nos das tuconsentimiento para recopilar, utilizar y proteger tu información personal de acuerdo con loestablecido aquí.</p><p>Si tienes alguna pregunta sobre esta Política de Privacidad, no dudes en contactarnos a través delos medios proporcionados en nuestro sitio web.</p>"
+    },
+    "contact":{
+        "contact":"Contacto",
+        "name":"Nombre:",
+        "email":"Email:",
+        "message":"Mensaje:",
+        "send":"Enviar"
+    },
+    "search":{
+        "search":"Busqueda"
+    }
+}

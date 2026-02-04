@@ -1,0 +1,744 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+body{
+    background: linear-gradient(0.25turn, rgb(220, 220, 255), rgb(226, 226, 226),rgb(220, 220, 255));
+}
+
+body.noScroll{
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Header*/
+
+@font-face{
+    font-family: "Flowers Sunday";
+    src: url("../fonts/Flowers-Sunday.otf");
+}
+
+header{
+    z-index: 20;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    background-color:blue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    z-index: 100;
+  }
+
+  .categoriesNavbar{
+    display: none;
+    visibility: hidden;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .categoriesNavbar a{
+    margin: auto;
+  }
+
+  .categoryButtonNavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .categoryButtonNavbar:hover{
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+  }
+
+  .categoryButtonNavbar p{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+  }
+  
+  .containerLogo{
+    display: flex;
+    align-items: center;
+    gap:5px;
+  }
+  
+  .containerMainLogo{
+    height: 50px;
+    width: 50px;
+    display: flex;
+  }
+  
+  .mainLogo img{
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    filter: brightness(1.3);
+  }
+  
+  .txtLogo{
+    color: white;
+    font-family: "Flowers Sunday";
+    font-size: 25px;
+    text-shadow: 0px 0px 3px black;
+    letter-spacing: 1px;
+  }
+  
+  .containerButtonCategories{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, .3);;
+    border-radius: 25%;
+    cursor: pointer;
+  }
+  
+  .buttonCategories{
+    background-image: url("../icon/menu-Button.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75%;
+    width: 75%;
+  }
+  
+  .search{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, .3);;
+    border-radius: 25%;
+  }
+  
+  .buttonSearch{
+    background-image: url("../icon/search.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75%;
+    width: 75%;
+    cursor: pointer;
+  }
+
+  .searchContainer{
+    position: fixed;
+    top: 60px;
+    background-color: blue;
+    padding: 5px;
+    border: 1px solid black;
+    right: -500px;
+    transition: .5s;
+  }
+
+  .searchContainer.is-active{
+    right: 0px;
+  }
+
+  .searchContainer input{
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .searchContainer button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 172);
+    color: white;
+  }
+
+  .buttonSearchPost{
+    background-color: rgb(0, 0, 163);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+  }
+
+  /*DropdownMenu*/
+
+  .dropdownMenu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content:space-between;
+    align-items: center;
+    width: 60%;
+    height: calc(100% - 60px);
+    z-index: 10;
+    right: 100%;
+    transition: .5s;
+    top: 60px;
+    background-color: rgb(41, 0, 221);
+}
+
+.dropdownMenu.is-active{
+    right: 40%;
+}
+
+.dropdownMenuList{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    border-right: 1px solid black;
+    gap:5px;
+    width: 100%;
+    align-items: center;
+}
+
+.dropdownMenuBack{
+    position: fixed;
+    background-color: rgba(0,0,0,.6);
+    height: 200%;
+    width: 200%;
+    transition: .5s;
+    opacity: 0%;
+    top: 0;
+    visibility: hidden;
+    z-index: 5;
+    
+}
+
+.dropdownMenuBack.is-active{
+    visibility: visible;
+    opacity: 100%;
+}
+
+.dropdownMenuList a{
+    width: 100%;
+}
+
+.languagesList{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    width: 100%;
+    padding: 20px;
+    justify-content:center;
+}
+
+.languagesList .languageContainer{
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.languagesList .languageContainer img{
+    height: 100%;
+    width: 100%;
+}
+
+.languagesContainer{
+    max-width: 500px;
+    margin: auto;
+}
+
+/*CategoryButton*/
+
+.categoryButton{
+    padding: 10px;
+    background-color: rgb(44, 0, 240);
+    display: flex;
+    align-items: center;
+}
+
+.categoryButton p{
+    color:white;
+    text-shadow: 0px 0px 3px black;
+    padding-left: 10px;
+}
+
+.gameIconContainer{
+    height: 32px;
+    width: 32px;
+}
+
+.gameIcon{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    filter: brightness(.5);
+}
+
+.imgArrowContainter{
+    height: 32px;
+    width: 32px;
+    margin-left: auto;
+}
+
+.imgArrow{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+/*Main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 5px 5px 15px 5px;
+    gap: 20px;
+    min-height: 50vh;
+    margin: auto;
+}
+
+/*Game Container*/
+
+.gamesContainerSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.backGameCategorieTitle{
+    background-color: rgb(0 203 105);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
+    padding: 10px;
+}
+.gameCategoryTitle{
+    font-family: "Flowers Sunday";
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 3px;
+}
+
+.gamesContainer{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#newGamesContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#popularGamesContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#actionGamesContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#chicasGamesContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#strategyGamesContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#threeDGamesContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#similarGamesContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.gameContainer{
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: rgb(184, 184, 184);
+    box-shadow: 1px 1px 3px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 150px;
+    min-height: 150px;
+    padding: 10px;
+    transition: .2s;
+}
+
+.gameContainer:hover{
+    transform: scale(1.15);
+}
+
+.gameContainer .gameTitle{
+    height: 15%;
+    width: 100%;
+}
+
+.gameTitle h2{
+    font-size: 1em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(39, 39, 39);
+}
+
+.imgGameContainer{
+    display: flex;
+    height: 85%;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+}
+
+.imgGameThumbnail{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Footer*/
+
+footer{
+    border: 1px solid black;
+}
+
+.about{
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+.about a{
+    color: yellow;
+    text-decoration: underline;
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutDescriptionContainer{
+    margin-top: 10px;
+    max-width: 1000px;
+}
+
+.aboutDescriptionContainer p{
+    margin: 10px 0px;
+}
+
+.aboutDescriptionContainer p a:hover{
+    color:rgb(155, 167, 0);
+    text-decoration: underline;
+}
+
+.footerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 161);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    gap: 10px;
+}
+
+.footerImgContainer{
+    max-width: 100px;
+}
+
+.footerImgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(1.3);
+}
+
+.footerList{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.footerList p{
+    align-self: center;
+    justify-self: center;
+    padding: 5px;
+}
+
+.footerList p a{
+    color:white;
+}
+
+.footerList p a:hover{
+    color:rgb(158, 158, 158);
+    text-decoration: underline;
+}
+
+.condContainer{
+    padding: 10px;
+}
+
+.condContainer p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.condContainer h2{
+    margin-bottom: 10px;
+}
+
+.politContainer{
+    padding: 10px;
+}
+
+.politContainer h2{
+    margin-bottom: 10px;
+}
+
+.politContainer p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.formContainer{
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    margin: 15px 0px;
+}
+
+.contacTitle{
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+    text-align: center;
+}
+
+.formContainer form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.formContainer label{
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}
+
+.formContainer form input{
+    border-radius: 10px;
+    min-height: 50px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.formContainer form input:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.formContainer form textarea{
+    border-radius: 10px;
+    min-height: 200px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.formContainer form textarea:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.formContainer form button{
+    border-radius: 10px;
+    min-height: 50px;
+    background-color: rgb(0, 0, 185);
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.formContainer form button:hover{
+    background-color: rgb(0, 0, 125);
+}
+
+/*minigame*/
+
+.miniGame{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    position: fixed;
+    margin:20px;
+    bottom: 0%;
+    right: 0%;
+    z-index: 3;
+}
+
+.miniGame #mainButton{
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+}
+
+.miniGame #miniGameContainer{
+    width: calc(100vw - 40px);
+    height: calc(100vh - 300px);
+    max-width: 400px;
+    max-height: 700px;
+    animation: animacion 1s;
+}
+
+.miniGame #miniGameContainer iFrame{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes animacion {
+    0% {
+        max-width: 0px;
+    max-height: 0px;
+    }
+    100% {
+        max-width: 400px;
+    max-height: 700px;
+    }
+  }
+
+
+@media screen and (min-width: 480px) {
+    .gameContainer{
+        max-width: 175px;
+        max-height: 175px;
+    }
+
+    #newGamesContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #popularGamesContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #actionGamesContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #chicasGamesContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #strategyGamesContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #threeDGamesContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #similarGamesContainer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+@media screen and (min-width: 1100px){
+    main{
+        flex-direction: row;
+        gap: 20px;
+        padding: 20px 20px;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        max-width: 1900px;
+    }
+
+    .gamesContainerSection{
+        min-width: 300px;
+    }
+
+    .containerButtonCategories{
+        visibility:hidden;
+        display: none;
+    }
+
+    .navbar{
+        justify-content:space-around;
+    }
+
+    .categoriesNavbar{
+        display: flex;
+        visibility: visible;
+    }
+
+    .dropdownMenu{
+        display: none;
+        visibility: hidden;
+    }
+
+    .gameIconContainer{
+        width: 24px;
+        height: 24px;
+    }
+
+    .footerContainer{
+        flex-direction: row;
+    }
+
+    .footerImgContainer{
+        max-width: 64px;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .categoryButtonNavbar .gameIconContainer{
+        display: none;
+        visibility: hidden;
+    }
+}

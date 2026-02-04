@@ -1,0 +1,50 @@
+{
+  "header": {
+  "actionCategory": "Aktion",
+  "threeDCategory": "3D",
+  "girlsCategory": "Mädchen",
+  "drivingCategory": "Fahren",
+  "sportsCategory": "Sport",
+  "multiplayerCategory": "Mehrspieler",
+  "mmoCategory": "MMO",
+  "strategyCategory": "Strategie",
+  "logicCategory": "Logik",
+  "searchButton": "Suchen"
+  },
+  "main":{
+  "newGamesCategory":"🎮Neue Spiele",
+  "popularGamesCategory":"🔝Beliebte Spiele",
+  "actionGamesCategory":"⚔️Actionspiele",
+  "girlsGamesCategory":"👗Mädchenspiele",
+  "strategyGamesCategory":"🐉Strategiespiele",
+  "threeDGamesCategory":"🎲3D-Spiele",
+  "similarGamesCategory":"Ähnliche Spiele"
+  },
+  "about":{
+  "title":"Über JuegosDestro",
+  "p1":"Willkommen bei JuegosDestro, Ihrem Ziel für kostenlose Browserspiele! Auf unserer Website finden Sie eine große Auswahl an spannenden und süchtig machenden Spielen, die Sie direkt in Ihrem Browser spielen können, ohne etwas herunterladen oder installieren zu müssen. Genießen Sie Online-Spaß und ein nahtloses Spielerlebnis!",
+  "p2":"Bei JuegosDestro legen wir großen Wert auf ein einzigartiges und unterhaltsames Spielerlebnis für alle Benutzer. Unser Katalog umfasst eine Vielzahl von Genres, von <a href='https://juegosdestro.com/categoria/strategy'>Online-Strategiespielen</a> und aufregenden Abenteuern bis hin zu <a href='https://juegosdestro.com/categoria/logic'>Geschicklichkeitsspielen und Rätseln</a>. Wir aktualisieren regelmäßig unsere Sammlung, um sicherzustellen, dass Sie immer neue Herausforderungen und aufregende Erlebnisse entdecken können.",
+  "p3":"Bei JuegosDestro liegt uns Ihre Benutzererfahrung am Herzen, daher haben wir unsere Website mit einer intuitiven und benutzerfreundlichen Benutzeroberfläche gestaltet. Erkunden Sie unsere große Auswahl an <a href='https://juegosdestro.com/categoria/action'>Online-Actionspielen</a>, <a href='https://juegosdestro.com/categoria/sports'>Online-Sportspielen</a> und <a href='https://juegosdestro.com/categoria/driving'>Online-Rennspielen</a>. Sie können nach Spielen nach Kategorie suchen, sie nach Beliebtheit filtern oder einfach unsere empfohlenen Spiele erkunden.",
+  "p4":"Schließen Sie sich der leidenschaftlichen Community von Online-Spielern bei JuegosDestro an und tauchen Sie in die Spannung unserer kostenlosen Browserspiele ein! Egal, ob Sie Gelegenheitsspieler oder Herausforderungsliebhaber sind, Sie werden etwas Passendes finden. Entdecken Sie jetzt JuegosDestro und beginnen Sie, direkt in Ihrem Browser zu spielen!"
+  },
+  "footer":{
+  "contact":"Kontaktieren Sie uns",
+  "policies":"Datenschutzrichtlinien",
+  "conditions":"Nutzungsbedingungen"
+  },
+  "conditions":{"description":"<h2>Nutz ungsbedingungen:</h2><h3>1. Annahme der Bedingungen:</h3><p> Durch den Zugriff auf die Website JuegosDestro und deren Nutzung akzeptieren Sie diese Nutzungsbedingungen und verpflichten sich, ihnen nachzukommen. Wenn Sie mit einer dieser Bedingungen nicht einverstanden sind, nutzen Sie bitte diese Website nicht.</p><h3>2. Nutzung des Inhalts:</h3><p> Alle auf JuegosDestro verfügbaren Inhalte dienen ausschließlich Unterhaltungszwecken und implizieren keine Garantie für Genauigkeit, Aktualität oder Eignung für einen bestimmten Zweck. Die Nutzung des Inhalts erfolgt auf eigene Verantwortung und Ermessen.</p><h3>3. Geistiges Eigentum:</h3><p> Alle mit dem Inhalt und Design der Website JuegosDestro verbundenen geistigen Eigentumsrechte liegen ausschließlich bei den jeweiligen Eigentümern. Eine Vervielfältigung, Verbreitung oder Änderung des Inhalts ohne vorherige schriftliche Genehmigung ist ausdrücklich untersagt.</p><h3>4. Externe Links:</h3><p> Die Website JuegosDestro kann Links zu externen Websites enthalten. Wir haben keine Kontrolle über den Inhalt und die Datenschutzrichtlinien dieser Websites und übernehmen daher keine Verantwortung für etwaige Schäden oder Verluste, die Ihnen durch den Zugriff auf diese Links entstehen können.</p><h3>5. Benutzerhaftung:</h3><p> Durch die Nutzung von JuegosDestro akzeptieren Sie, dass Sie allein für Ihre Handlungen auf der Website verantwortlich sind. Wir übernehmen keine Verantwortung für etwaige Schäden, Verluste oder Folgen, die sich aus der Nutzung der Website ergeben können.</p><h3>6. Änderungen:</h3><p> Wir behalten uns das Recht vor, diese Nutzungsbedingungen jederzeit und ohne vorherige Ankündigung zu ändern oder zu aktualisieren. Wir empfehlen Ihnen, diese Seite regelmäßig zu überprüfen, um über etwaige Änderungen auf dem Laufenden zu bleiben. Die fortgesetzte Nutzung der Website nach vorgenommenen Änderungen bedeutet Ihre Zustimmung zu den geänderten Bedingungen.</p>"
+},
+"policies":{
+"description":"<h2>Datenschutzrichtlinien:</h2><h3>Datenerhebung:</h3><p>Wir erfassen automatisch keine personenbezogenen Daten, wenn Sie unsere Website besuchen.</p><p>Wir erfassen nur personenbezogene Daten, wenn Sie diese freiwillig über Kontaktformulare oder andere Kommunikationsmittel zur Verfügung stellen.</p><p>Zu den von uns erfassten personenbezogenen Daten können Ihr Name, Ihre E-Mail-Adresse oder andere Informationen gehören, die zur Beantwortung Ihrer Anfragen oder zur Bereitstellung der von Ihnen angeforderten Dienste erforderlich sind.</p><h3>Verwendung der Informationen:</h3><p>Wir verwenden die von Ihnen bereitgestellten personenbezogenen Daten, um Ihre Anfragen zu beantworten und die von Ihnen angeforderten Dienste bereitzustellen.</p><p>Wir werden Ihre personenbez bezogenen Daten ohne Ihre Zustimmung nicht an Dritte weitergeben, verkaufen oder vermieten, es sei denn, dies ist zur Erfüllung einer rechtlichen Verpflichtung erforderlich.</p><h3>Cookies und ähnliche Technologien:</h3><p>Wir verwenden keine Cookies oder ähnliche Technologien zur Erfassung personenbezogener Daten oder zur Verfolgung Ihrer Aktivitäten auf unserer Website.</p><h3>Links zu Websites Dritter:</h3><p>Unsere Website kann Links zu Websites Dritter enthalten. Diese Datenschutzrichtlinie gilt nur für unsere Website. Wir empfehlen Ihnen, die Datenschutzrichtlinien dieser Drittanbieter-Websites zu lesen, wenn Sie sie besuchen.</p><h3>Sicherheit der Informationen:</h3><p>Wir treffen angemessene Sicherheitsmaßnahmen, um die von uns erfassten und gespeicherten personenbezogenen Daten zu schützen.</p><p>Bitte beachten Sie jedoch, dass keine Datenübertragung über das Internet oder ein Online-Speichersystem zu 100 % sicher ist. Wir können die absolute Sicherheit Ihrer personenbezogenen Daten nicht garantieren.</p><h3>Änderungen der Datenschutzrichtlinie:</h3><p>Wir behalten uns das Recht vor, diese Datenschutzrichtlinie jederzeit zu ändern. Änderungen werden wirksam, wenn wir die aktualisierte Datenschutzrichtlinie auf unserer Website veröffentlichen.</p><h3>Zustimmung:</h3><p>Durch die Nutzung unserer Website stimmen Sie den Bestimmungen dieser Datenschutzrichtlinie zu und willigen ein, dass wir Ihre personenbezogenen Daten gemäß den hier festgelegten Bedingungen erfassen, nutzen und schützen.</p><p>Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte über die auf unserer Website angegebenen Kontaktinformationen.</p>"
+},
+"contact":{
+"contact":"Kontakt",
+"name":"Name:",
+"email":"E-Mail:",
+"message":"Nachricht:",
+"send":"Senden"
+},
+"search":{
+"search":"Suche"
+}
+}
